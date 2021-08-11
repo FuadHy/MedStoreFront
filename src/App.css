@@ -1,0 +1,241 @@
+/* Root app style modifcations */
+
+.App {
+  text-align: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bg-grey {
+  background: #f4f5f7;
+}
+
+/* Root app style modifcations */
+
+/* Nav bar style modifcations */
+
+.App-logo {
+  height: auto;
+  pointer-events: none;
+}
+
+#acc-icon::before {
+  position: absolute;
+  content: attr(data-user);
+  right: 100%;
+  z-index: 999999;
+  color: #fff;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.nav-hover {
+  transition: 1s border-bottom;
+}
+
+.nav-hover:hover {
+  border-bottom: white 2px solid;
+}
+
+.header-description {
+  -moz-border-radius: 10px;
+  /* for Firefox */
+  -webkit-border-radius: 10px;
+  /* for Webkit-Browsers */
+  border-radius: 10px;
+  color: #0b0166;
+}
+
+.navbar-collapse-header {
+  text-decoration-color: #008bb5;
+}
+
+.navbar-brand img {
+  height: 80px !important;
+}
+
+.content-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-main {
+  background-color: #008bb5 !important;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 300px) {
+  .icon-l {
+    font-size: 6rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+  .icon-l {
+    font-size: 6rem;
+  }
+  .nav-link-inner--text .text-white {
+    color: #172b4d !important;
+  }
+  .product-content {
+    margin: 0 2rem;
+    margin-top: 200px !important;
+    position: initial;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (max-width: 768) {
+  .icon-l {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .icon-l {
+    font-size: 6rem;
+  }
+  .navbar-brand img {
+    height: 50px !important;
+  }
+  .nav-link-inner--text .text-white {
+    color: #172b4d !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media screen and (min-width: 992px) {
+  .icon-l {
+    font-size: 6rem;
+  }
+  /* .nav-link-inner--text .text-white {
+    color: #172b4d !important;
+  } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+.app-header {
+  
+  background-color: transparent;
+  min-height: 100vh;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+/* Nav bar style modifcations */
+
+/* Footer style modifcations */
+
+.footer {
+  display: block;
+  padding: 1rem !important;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Footer style modifcations */
+
+.services {
+  position: relative;
+  clear: both;
+}
+
+/* Service View style modifcations */
+
+.separator svg {
+  display: block;
+}
+
+.services-card {
+  margin-top: 2%;
+}
+
+/* Service View style modifcations */
+
+/*  Product view style modification */
+
+.product-content {
+  margin: 0;
+  margin-top: 100px;
+  position: initial;
+}
+
+.home-content {
+  margin: 0;
+  margin-top: 100px;
+  position: initial;
+}
+
+/*  Product view style modification */
+
+/* about-us style modification */
+
+.about-us {
+  background-image: url('assets/img/theme/Tilet.jpg');
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  display: flex;
+  background-size: cover;
+}
+
+.about-us .content {
+  background-color: rgba(244, 245, 247, 0.75);
+}
+
+/* about-us style modification */
+
+/* Search bar component style modification */
+
+.search-bar-result {
+  z-index: 100;
+  width: 48%;
+  position: absolute;
+  margin-right: auto;
+}
+
+.search-result-item{
+  width: 100%;
+  
+}
+
+.search-bar-body{
+  width: auto;
+}
+
+.search-bar {
+  border: 2px solid #61dafb !important;
+  width: 50% !important;
+}
+
+.search-bar :focus {
+  border: 1px solid #61dafb !important;
+}
+
+.rigth-align {
+  float: right;
+}
+
+/* Search bar component style modification */
